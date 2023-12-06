@@ -4,7 +4,7 @@
 
 Mi portafolio Web 
 
-Con: 
+Con:
 • HTML
 • CSS
 • JavaScript
