@@ -1,0 +1,8 @@
+# Configuración de páginas de error
+DirectoryIndex index.html
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^i=1$
+RewriteRule ^$ /? [L,R=301]
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+ErrorDocument 403 /403.html

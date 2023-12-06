@@ -1,0 +1,41 @@
+body {
+    font-size: 14px;
+    color: #777777;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000c2f;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 180px;
+    color: #99A7AF;
+    margin: 70px 0 0 0;
+}
+
+h2 {
+    color: #DE6C5D;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: -3px 0 39px;
+}
+
+p {
+    width: 320px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+div {
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: #34536A;
+    text-decoration: none;
+}
