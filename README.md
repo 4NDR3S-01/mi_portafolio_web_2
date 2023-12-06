@@ -1,6 +1,6 @@
 # Mi Portafolio Web V2.0
 
-![Yo](Yo.png)
+![Yo](Yo.webp)
 
 Mi portafolio Web 
 
