@@ -180,7 +180,7 @@ body.light #dark {
 }
 
 .switcher .sw_btn {
-    background: url(../img/btn.png) no-repeat;
+    background: url(../img/404/btn.webp) no-repeat;
     width: 42px;
     height: 45px;
     display: block;
@@ -192,7 +192,7 @@ body.light #dark {
 }
 
 .switcher .bg {
-    background: url(../img/bg_btn.png) no-repeat;
+    background: url(../img/404/bg_btn.webp) no-repeat;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -238,7 +238,7 @@ body.light #dark {
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url(../img/ajax-loader.gif);
+    background-image: url(../img/404/ajax-loader.webp);
     background-position: center;
     background-repeat: no-repeat;
 }

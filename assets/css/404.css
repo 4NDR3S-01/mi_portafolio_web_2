@@ -27,18 +27,18 @@ img{
     border-color: red !important;
 }
 
-::-webkit-input-placeholder { /* WebKit browsers */
+::-webkit-input-placeholder {
     color:    #ffffff;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #ffffff;
-    opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+:-moz-placeholder {
     color:    #ffffff;
     opacity:  1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+::-moz-placeholder {
+    color:    #ffffff;
+    opacity:  1;
+}
+:-ms-input-placeholder {
     color:    #ffffff;
 }
 
@@ -46,9 +46,6 @@ img{
     position: relative;
 }
 
-/* ------------------
-    Button
--------------------- */
 .btn{
     font-size: 18px;
     font-weight: 600;
@@ -84,9 +81,6 @@ img{
     background: #ec5900;
 }
 
-/* ------------------
-    Wrapper
--------------------- */
 #wrapper{
     min-height: 100%;
     height: 100%;
@@ -112,9 +106,6 @@ body.light #dark{
     visibility: hidden;
 }
 
-/* ------------------
-    Info
---------------------*/
 .info{
     position: relative;
     z-index: 999;
@@ -148,9 +139,6 @@ body.light #dark{
     display: none;
 }
 
-/* ------------------
-    Switches
---------------------*/
 .switcher {
     width: 185px;
     height: 84px;
@@ -168,7 +156,7 @@ body.light #dark{
     -ms-transition: all .2s;
 }
 .switcher .sw_btn {
-    background: url('../img/btn.png') 0% 0% no-repeat;
+    background: url('../img/404/btn.webp') 0% 0% no-repeat;
     width: 42px;
     height: 45px;
     display: block;
@@ -178,7 +166,7 @@ body.light #dark{
     top: 22px;
     left: 65px;
 }
-.switcher .bg { background: url('../img/bg_btn.png') 0% 0% no-repeat; }
+.switcher .bg { background: url('../img/404/bg_btn.webp') 0% 0% no-repeat; }
 .switcher input.switcher-value { display: none; }
 .switcher .bg {
     width: 100%;
@@ -200,10 +188,6 @@ body.light #dark{
     color: #343f69;
 }
 
-
-/* ------------------
-    Animationload
---------------------*/
 .animationload {
     position: fixed;
     top: 0;
@@ -220,14 +204,11 @@ body.light #dark{
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url("../img/ajax-loader.gif");
+    background-image: url("../img/404/ajax-loader.webp");
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* ------------------
-    Responsive CSS
---------------------*/
 
 @media (max-width: 1200px) {
 

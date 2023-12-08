@@ -2,11 +2,6 @@ $(window).load(function() {
 
     "use strict";
 
-    /*
-     ----------------------------------------------------------------------
-     Preloader
-     ----------------------------------------------------------------------
-     */
     $(".loader").delay(400).fadeOut();
     $(".animationload").delay(400).fadeOut("fast");
 
@@ -18,11 +13,6 @@ $(document).ready(function() {
         $("body").toggleClass("light");
     });
 
-    /*
-     ----------------------------------------------------------------------
-     Nice scroll
-     ----------------------------------------------------------------------
-     */
     $("html").niceScroll({
         cursorcolor: '#fff',
         cursoropacitymin: '0',
