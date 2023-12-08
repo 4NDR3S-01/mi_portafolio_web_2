@@ -6,10 +6,10 @@ Mi portafolio Web
 
 Con: 
 
-• HTML 😎
+😎 HTML 
 
-• CSS 👻
+👻 CSS 
 
-• JavaScript 😋
+😋 JavaScript
 
-• React Native 🤖
+🤖 React Native
