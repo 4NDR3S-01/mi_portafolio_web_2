@@ -10,6 +10,4 @@ Con:
 
 👻 CSS 
 
-😋 JavaScript
-
-🤖 React Native
+🤖 JavaScript
